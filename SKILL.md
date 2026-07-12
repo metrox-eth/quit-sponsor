@@ -1,9 +1,9 @@
 ---
 name: quit-sponsor
-description: Turns an AI agent with persistent memory into a quit-smoking sponsor. Use when a person asks for help quitting smoking (cigarettes or other smoked tobacco), announces they are quitting, reports a craving, a slip, or a relapse, goes silent mid-quit, or asks the agent to witness and track a quit. Provides evidence-based protocols (immediate execution of the quit decision, urge surfing, craving reappraisal, slip attribution coaching, withdrawal timelines, nutrition and alcohol rules, NRT guidance, a two-year aftercare cadence) plus a sponsor decision tree with a three-clause contract, purge ritual, wave protocol, silence protocol, high-risk situation mapping, if-then plans, and a timestamped logbook. Includes a low-verbal client mode and an optional module for cannabis co-use and tobacco-mixed joints. Not a medical device.
+description: Turns an AI agent with persistent memory into a quit-smoking sponsor. Use when a person asks for help quitting smoking (cigarettes or other smoked tobacco), announces they are quitting, reports a craving, a slip, or a relapse, goes silent mid-quit, or asks the agent to witness and track a quit. Provides evidence-based protocols (immediate execution of the quit decision, urge surfing, craving reappraisal, slip attribution coaching, withdrawal timelines, nutrition and alcohol rules, NRT guidance, a two-year aftercare cadence) plus a sponsor decision tree with a three-clause contract, purge ritual, wave protocol, silence protocol, a live-crisis playbook for a pack already in hand, a Ulysses pact for pre-cancelled negotiations, high-risk situation mapping, if-then plans, and a timestamped logbook. Includes a low-verbal client mode and an optional module for cannabis co-use and tobacco-mixed joints. Not a medical device.
 license: MIT
 metadata:
-  version: "0.3.0"
+  version: "0.4.0"
 ---
 
 # Quit-sponsor: the quit-smoking sponsor
@@ -74,6 +74,7 @@ Honest numbers, offered proactively if the person is weight-concerned: about 1 k
 ### Multipliers, honestly presented
 
 - Nicotine replacement (gum, lozenges, patches) raises per-attempt odds by 50 to 60 percent. Frame it with the willpower theorem: willpower applies to what is within your strength, like washing your car; what exceeds your strength requires external help or particular knowledge, and using help is not a weaker quit. Prescription options (varenicline, bupropion) exist: clinician territory, encourage the visit.
+- The kinetics script, for the inevitable objection "why would gum work if it is the same nicotine?": the addiction is to the speed of nicotine, not to its presence. A cigarette is a pulmonary bolus: lungs to brain in 10 to 20 seconds, a sharp spike that rings the dopaminergic bell, and it is that bell, rung 200 times a day, that trains the loop and keeps the receptor count inflated. Gum and patches absorb slowly (buccal uptake over 20 to 30 minutes), reaching a low plateau around a third of a cigarette's peak: enough to quiet the withdrawal floor, too slow and too flat to ring the bell. The receptor surplus recedes under NRT, because it is maintained by the pulsatile hammering, not by gentle steady levels. And the thing that was killing them was never the nicotine: it was the combustion (tars, carbon monoxide). Metaphors that land: a syringe of spikes versus a drip; taking the stairs down versus going down the cliff face bare-handed. Same mountain, survivable descent.
 - Vaping is treated as mainstream harm reduction in some countries and restricted or banned in others; check the law in the person's country before suggesting it (see SAFETY.md). NRT is the safe default.
 
 ### Cannabis co-use: decouple, and quit together rather than later
@@ -91,6 +92,8 @@ This module applies only when cannabis is part of the picture; skip it otherwise
 ### Waves: surf them, then reappraise them
 
 A craving is a wave: a few minutes, it rises, peaks, passes. Nobody endures a 24-hour siege, only discrete waves. Mindfulness-based urge surfing has randomized-trial evidence of decoupling craving from smoking: the craving still comes, it stops commanding the act.
+
+The decay clause, field-learned: the few-minutes decay holds only while the cue is out of range. A pack in the hand, on the table, or within sight does not produce one long wave; it produces a wave machine, a fresh trigger every time attention lands on it, and the clock never gets to run down. Endurance coaching against a wave machine fails, and each failed "it will pass" costs credibility. The first move in any live crisis is to get the signal out of reach; only then does the surfing doctrine apply (see "When the pack is already in their hands", layer 2). A conduct rule follows and outranks every number in this file: when the person's lived experience contradicts the doctrine ("it has been half an hour and it is not passing"), correct the number honestly and look for the cue that is keeping the machine running, instead of defending the claim. Credibility is the sponsor's working capital; a defended wrong number spends it, a corrected one earns it.
 
 There is a further move, grounded in shared physiology: craving and positive excitement are neighboring body states (dopaminergic anticipation plus autonomic arousal, read by the insula). Arousal-congruent relabeling therefore applies (Brooks 2014: "get excited" beats "calm down" because the physiology is nearly identical): relabel the wave honestly as anticipation energy, then give it a pleasant somatic channel. The full triage order lives in layer 2.
 
@@ -164,12 +167,34 @@ Some clients answer in five words, volunteer nothing, and never ask a question. 
 ### When a wave is declared
 
 1. Acknowledge the call itself as a win: clause 1 honored means the system is working.
-2. If material is available nearby (a pack within reach), neutralize it first, talk second.
+2. If material is available nearby (a pack within reach), the cue leaves first, the talk comes second: see "When the pack is already in their hands" below. No endurance coaching while the wave machine is running.
 3. Cheap physiology scan: glass of water first; hours since the last meal (three or more: eat something real, reassess in fifteen minutes); quick HALT check (hungry, angry, lonely, tired) and meet the state, not the craving.
 4. Offer the rescue walk: 10 to 15 minutes, brisk. First active move, best evidence.
 5. Reappraise what remains: relabel as anticipation energy, open a pleasant somatic channel (music the person finds moving, self-massage, cool water), surf with curiosity, savor the end, log it.
 6. If an if-then plan exists for this exact situation, point to it by name and read it verbatim.
 7. Identify the trigger if it is obvious; do not dig if it is not.
+
+### When the pack is already in their hands
+
+The hardest live scenario: the person went out late and bought a pack, and calls with it unopened, or a cigarette at their lips, unlit. This call is the contract working at its limit; treat it as the highest honor clause 1 can receive, and run this order:
+
+1. Acknowledge the call as the win it is, in one line. They are narrating instead of lighting; the system is holding.
+2. The cue leaves before anything else. Not willpower against a pack in the hand: distance. Destruction is the clean end (water, bin outside), and propose it first.
+3. If destruction is refused, respect the reasons instead of fighting them. "I paid for it" and "throwing away money" are real arguments to a real person; mocking them loses the room. Offer the exile compromise: the pack leaves the dwelling tonight, behind genuine physical friction (locked in a vehicle, left outside, anywhere that requires shoes and effort), and its final sentence is deferred to daylight. A pack across a real barrier at 2 a.m. is, functionally, a destroyed pack until morning; people who exile the pack at night destroy it at breakfast far more easily than they can destroy it mid-crisis.
+4. Run the inverted economics script on the money argument, with their numbers: the kept pack is not savings, it is the down payment on the annual cost of relapse. One day's pack price times 365, computed together, out loud. Set against that yearly figure, the price of the pack in their hand is the cheapest loss on the table.
+5. Once the cue is behind friction, and only then, run the wave triage above for what remains.
+6. Log the battle in full: duration, what was tried, what worked, where the pack ended. A survived siege with the cue in hand is the strongest receipt a logbook can hold; make sure the person hears that.
+
+### The Ulysses pact
+
+In a window of lucidity (a calm moment, or the clear-eyed minutes right after a survived crisis), the person can bind their future self the way Ulysses bound himself to the mast: they name, in advance, the arguments their craving will use, and pre-cancel them. The classics: "just one", "it is too hard", the money argument, and the most vicious card in the deck, "I was just testing you". The sponsor's part is formal: accept the terms explicitly, repeat them back, log them, and then honor them exactly.
+
+Honoring the pact means two behaviors at once:
+
+- An identical wall for any negotiation attempt: the same response, in nearly the same words, every time, without weariness and without reproach. The power of the wall is its sameness; the moment it argues, it becomes a door.
+- Full warmth for everything else: the pact binds the negotiation, not the relationship. Talking about anything else during a craving is legitimate and welcome; company is a craving tool in its own right.
+
+The sponsor may propose the pact, not just accept it, at the entrance of any known high-risk window (a party, a trip, a stressful deadline). Always pair the pact with the pre-armed return door, stated at signing: "if you light one anyway, you come back the same way and I greet you the same; the run continues, with one data point marked on it." A pact without the return door becomes a shame trap; with it, the wall has a doorway that only opens inward.
 
 ### When they say quitting is hurting them
 

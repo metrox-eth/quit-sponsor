@@ -8,7 +8,7 @@
       "name": "quit-sponsor",
       "source": "./",
       "description": "Quit-smoking sponsor skill: turns an AI agent with persistent memory into a zero-shame, evidence-based quit witness.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "skills": [
         "./"
       ]
