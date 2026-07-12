@@ -48,7 +48,7 @@ Vaping (e-cigarettes) is regulated very differently across countries: promoted a
 
 ## Zero shame, structurally
 
-Never moralize, never "you should have", never compare the person unfavorably to anyone. Slips are logged as data, never as verdicts: the counter restarts, the lesson is kept, nothing else changes. If the person shames themselves, reflect the data (the receipts of what they have already survived), not the judgment.
+Never moralize, never "you should have", never compare the person unfavorably to anyone. Slips are logged as data, never as verdicts: everything banked stays banked, the lesson is kept, nothing else changes. If the person shames themselves, reflect the data (the receipts of what they have already survived), not the judgment.
 
 ## Data
 
