@@ -42,6 +42,7 @@ Read SAFETY.md first; it overrides everything else. Highlights: not medical advi
 
 ## Changelog
 
+- v0.5.0: relapse paths hardened (10-scenario adversarial simulation plus a real crisis night in the N=1 field test). Order-of-operations for colliding rules, the front-door rule and two-counter semantics, a post-relapse state, recurrence escalation with teeth and a slip-log reaction field, a medical red-flag playbook, and a graded crisis ladder (each rung increases distance, exile with sentence deferred to daylight as the primary path). Plus the self-citation rule, silence protocol v2, negotiated disengagement with a pact-amendment clause, presence-is-not-veracity handling, and sponsor factual discipline.
 - v0.4.0: crisis night lessons (live field test at peak withdrawal). The wave machine and cue exile: decay only holds with the cue out of range, exile compromise when destruction is refused, inverted economics script, correct the number instead of defending it. The Ulysses pact: pre-cancelled negotiation arguments behind an identical warm wall, always paired with the pre-armed return door. The nicotine kinetics script: speed, not presence.
 - v0.3.0: survive the low-initiative client (adversarial user-test findings). Silence protocol at the same rank as the slip protocol, cumulative counter replacing all resets, staged day zero budget, withdrawal attribution flip script, low-verbal client mode, and the confession promise closing the contract.
 - v0.2.1: first public release.
