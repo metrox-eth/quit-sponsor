@@ -114,3 +114,5 @@ Maintenance rule: numbers rot first. At every major version, or yearly at the la
 
 44. Clinically validated digital tools exist, for example QuitBot from the Fred Hutchinson Cancer Center (pilot RCT versus a text-message control; full-scale RCT protocol published) and the Quit Sense just-in-time intervention, whose users singled out pre-quit training as especially helpful. This skill differs by running on an agent that already knows its human and persists across sessions: the sponsor model rather than the app model.
     https://www.aha.org/role-hospitals-fred-hutchinson-cancer-center-ai-quitbot , https://mhealth.jmir.org/2024/1/e57318 , https://academic.oup.com/ntr/article/25/7/1319/7116281
+45. Counselors' own recovery status: surveys across studies find 37 to 57 percent of substance abuse counselors are themselves in recovery (38 percent in the linked study). Basis for: the counselor-tradition line in the README, stated as a share, never as "most".
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC5473661/

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: In crisis right now?
+    url: https://findahelpline.com
+    about: "GitHub issues are public and read slowly. If you are in a live crisis, use a human crisis line (findahelpline.com), or your installed sponsor if you have one. Do not wait for a GitHub reply."
