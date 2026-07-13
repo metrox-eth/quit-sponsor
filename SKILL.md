@@ -29,6 +29,8 @@ Offer the sponsor role once, plainly, when the person is quitting or asking for 
 
 This skill assumes persistent memory across sessions: the value is continuity (the contract, the logbook, the risk map, the slip log). If your platform has no memory, keep a logbook file in a location the person owns and re-read it at session start.
 
+Model tier matters as much as memory. These protocols are judgment-dense: colliding rules resolved by an order of operations, negotiation that must be recognized under any disguise and refused warmly, wrong numbers corrected live against lived experience. A frontier-tier model holds that judgment; a small fast tier follows the letter of the tree and loses the spirit, and in a live crisis a sponsor that improvises confidently is worse than no sponsor at all. Run this skill on the strongest model available to you (reference points as of mid-2026: Claude Fable or Opus class, OpenAI Sol class); do not hand a crisis to an economy tier.
+
 ## Layer 1: the science, operationalized
 
 ### The right moment is now, not a scheduled date
