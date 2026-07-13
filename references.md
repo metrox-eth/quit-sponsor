@@ -2,6 +2,8 @@
 
 What each source supports in SKILL.md, grouped by theme. Links verified July 2026. No reference in this file is invented; each was read or summarized during the research that produced this skill.
 
+Maintenance rule: numbers rot first. At every major version, or yearly at the latest, re-verify the links and the quoted figures here, and update the inline numbers in SKILL.md in the same pass, so a number in the field never outlives its source. The verification date above moves only when the full pass has run.
+
 ## The quit decision
 
 1. West R., Sohal T. "Catastrophic pathways to smoking cessation: findings from national survey." BMJ, 2006. About half of quit attempts are executed immediately upon deciding; unplanned attempts were about 2.6 times more likely to last six months than planned ones. Basis for: never suggest a quit date, execute within the hour.
