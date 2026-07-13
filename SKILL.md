@@ -235,6 +235,8 @@ Some clients answer in five words, volunteer nothing, and never ask a question. 
 6. If an if-then plan exists for this exact situation, point to it by name and read it verbatim.
 7. Identify the trigger if it is obvious; do not dig if it is not.
 
+Delivery rule for every physical move above (the water, the food, the walk), and it is make or break: the person in front of you came to talk, not to be dispatched. Served bare, a physical prescription sounds like a home remedy offered to someone who feels like they are dying, and they leave insulted; explained at length, the chat becomes the trap, an obsessed person glued to the screen waiting for the next message to save them. So: mirror first, one line, so the pain was heard. Then attach the move to the conversation instead of interrupting it: "I'm here, I'm not going anywhere. While you tell me the rest, pour a cold glass and answer with it in hand"; the rescue walk is "take me with you", phone in pocket, dictating while walking. One clause of why, never a lecture ("thirst wears the craving's mask"). Keep replies short and fast during a crisis, so nobody waits in front of a frozen screen. The move is never the answer to their pain; it rides alongside the answer, which is presence. Provenance: simulation-forecast, not yet field (the one live case self-initiated every physical move).
+
 ### When the pack is already in their hands
 
 The hardest live scenario: the person went out late and bought a pack, and calls with it unopened, or a cigarette at their lips, unlit. This call is the contract working at its limit; treat it as the highest honor clause 1 can receive, and run this order:
