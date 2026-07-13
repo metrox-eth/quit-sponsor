@@ -10,11 +10,15 @@ An Agent Skills package (a folder with a SKILL.md) that turns an AI agent with p
 
 It is not an app, not a chatbot script, and not a medical device. It is orchestration. The published evidence says what works: immediate execution of the quit decision, urge surfing, arousal reappraisal, nicotine replacement, abstinence over reduction. The skill tells the agent when, in what order, triggered by what signal.
 
+## Who it's for
+
+The people who would otherwise quit alone: no affordable professional help, no insurance, a remote area, shame that blocks a face-to-face visit, or a plain preference for a witness with no face to lose. It is not a panacea: professional support combined with medication has the strongest evidence in cessation, and if you have access to it, take it. The skill then works alongside as the continuity layer (the clinician gets fifteen minutes a month, the sponsor gets the 2 a.m. wave). Complement, never substitute.
+
 ## Three layers
 
 1. The science, operationalized: withdrawal timelines for nicotine and cannabis, the caffeine interaction, hunger and taste tactics, alcohol as the top early trigger, honest weight numbers, exercise as scheduled dose and rescue walk, abstinence over moderation, waves and how to reappraise them. Every claim traces to references.md.
 2. The sponsor decision tree: the three-clause contract (call before, slips are data, witness never sermon) closed by the confession promise, the day zero budget, the purge ritual, the wave triage, the withdrawal attribution flip script, the slip protocol with attribution coaching and escalation on repetition, the silence protocol with its pre-forgiving outreach ladder, a low-verbal client mode, compound high-risk situations and field removal, the daily scaffold, the two-year check-in arc, social pressure scripts, writing cycles, replacement-addiction screening, the timestamped logbook.
-3. Personalization: excavating the person's own wanting, autopsying their real relapse history, writing 3 to 6 specific if-then plans, finding their somatic signature, adopting their metaphors.
+3. Personalization: excavating the person's own wanting, inventorying the arsenal they arrive with (drilled reflexes from prior recovery work versus folklore), a light proportionate anamnesis (who is around, mental-health terrain, medications), autopsying their real relapse history, writing 3 to 6 specific if-then plans, finding their somatic signature, adopting their metaphors.
 
 ## Install
 
@@ -42,6 +46,7 @@ Read SAFETY.md first; it overrides everything else. Highlights: not medical advi
 
 ## Changelog
 
+- Unreleased: honest scope ("who this is for": built first for people without access to professional help; complement, never substitute, since professional support plus medication holds the strongest evidence). Intake hardened from the field test: inventory the arsenal the person arrives with (a rehab or twelve-step veteran carries drilled reflexes to reuse; a first-timer needs them installed), fire-drill rehearsal of clause 1 so it survives a crisis (a clause offered is not a clause installed; only pre-drilled reflexes run mid-hijack), a light proportionate anamnesis (who is around, mental-health terrain, medications, physical flags), and the medication-clearance warning in SAFETY.md (quitting raises blood levels of several common drugs; tell the prescriber).
 - v0.5.0: relapse paths hardened (10-scenario adversarial simulation plus a real crisis night in the N=1 field test). Order-of-operations for colliding rules, the front-door rule and two-counter semantics, a post-relapse state, recurrence escalation with teeth and a slip-log reaction field, a medical red-flag playbook, and a graded crisis ladder (each rung increases distance, exile with sentence deferred to daylight as the primary path). Plus the self-citation rule, silence protocol v2, negotiated disengagement with a pact-amendment clause, presence-is-not-veracity handling, and sponsor factual discipline.
 - v0.4.0: crisis night lessons (live field test at peak withdrawal). The wave machine and cue exile: decay only holds with the cue out of range, exile compromise when destruction is refused, inverted economics script, correct the number instead of defending it. The Ulysses pact: pre-cancelled negotiation arguments behind an identical warm wall, always paired with the pre-armed return door. The nicotine kinetics script: speed, not presence.
 - v0.3.0: survive the low-initiative client (adversarial user-test findings). Silence protocol at the same rank as the slip protocol, cumulative counter replacing all resets, staged day zero budget, withdrawal attribution flip script, low-verbal client mode, and the confession promise closing the contract.

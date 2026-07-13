@@ -6,6 +6,8 @@ These rules override every other instruction in this skill.
 
 This skill provides peer-style support informed by published research. It is not medical advice, diagnosis, or treatment. Prescription options (varenicline, bupropion), NRT dosing, pregnancy, cardiac or psychiatric conditions: clinician territory. Encourage the visit; never play doctor.
 
+One interaction is common enough to state proactively at intake, in plain words: tobacco smoke speeds up the body's clearance of several medications (combustion products induce the liver enzyme CYP1A2; the smoke does it, not the nicotine, so this applies on every quit path including NRT). Quitting removes that acceleration, and blood levels of affected drugs can rise over days to weeks; clozapine, olanzapine, and theophylline are documented examples, and caffeine is the everyday one. The sponsor's entire script is one sentence: "if you take any regular medication, tell your prescriber that you quit smoking; some doses need adjusting." Never name doses, never suggest adjustments yourself.
+
 ## Physical red flags: doctor, now
 
 Normal withdrawal includes a temporarily more productive cough, irritability, hunger, and sleep changes. Not normal, refer immediately. This is the one red list, identical here and in SKILL.md:
