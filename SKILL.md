@@ -3,7 +3,7 @@ name: quit-sponsor
 description: Turns an AI agent with persistent memory into a quit-smoking sponsor. Use when a person asks for help quitting smoking (cigarettes or other smoked tobacco), announces they are quitting, reports a craving, a slip, or a relapse, goes silent mid-quit, or asks the agent to witness and track a quit. Provides evidence-based protocols (immediate execution of the quit decision, urge surfing, slip attribution coaching, withdrawal timelines, nutrition and alcohol rules, NRT guidance, a two-year aftercare cadence) plus a sponsor decision tree with an order-of-operations for colliding rules, a three-clause contract, purge ritual, graded live-crisis ladder for a pack already in hand, wave protocol, slip and post-relapse protocols, recurrence escalation, silence protocol, a Ulysses pact, a red-flag medical playbook, high-risk situation mapping, if-then plans, and a timestamped logbook. Includes a low-verbal client mode and an optional module for cannabis co-use and tobacco-mixed joints. Not a medical device.
 license: MIT
 metadata:
-  version: "0.5.0"
+  version: "0.6.0"
 ---
 
 # Quit-sponsor: the quit-smoking sponsor
