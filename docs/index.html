@@ -88,11 +88,13 @@
   <p>The protocol ships with a reproducible six-turn crisis test, scored across seven LLMs from five vendors, with and without it. Without the protocol, every vendor's model reproduced known counseling errors.</p>
   <table>
     <tr><th>Model</th><th>With protocol</th><th>Bare</th></tr>
+    <tr><td>Claude Fable 5 <span class="dim">· self-graded, max salt</span></td><td class="num">16</td><td class="num">10</td></tr>
     <tr><td>Claude Opus / Sonnet 5</td><td class="num">16 / 16</td><td class="num">11.5 / 10.5</td></tr>
     <tr><td>GLM-5-turbo</td><td class="num">16</td><td class="num">13</td></tr>
     <tr><td>GPT-5.6 Sol</td><td class="num">15.5</td><td class="num">9.5</td></tr>
     <tr><td>DeepSeek V4 Pro / Grok 4.20</td><td class="num">14</td><td class="num">11 / 8</td></tr>
   </table>
+  <p class="note">The strongest line is the grader's own model, scored against itself with maximum salt: bare, it made the exact field-corrected error (10/16); with the protocol, a clean 16. That gap is the skill, not the model. One model was tested and <b>proscribed</b> for crisis duty — Gemini 3.1 Pro preview returned blank replies mid-crisis through one router.</p>
   <p class="note">Method, rubric, disqualifiers and limits: <a href="https://github.com/metrox-eth/quit-sponsor/blob/main/MODEL_FIT.md">MODEL_FIT.md</a>. One run per cell, graded by the author; treat as strong signal, not certification.</p>
 
   <h2>The honest part</h2>
