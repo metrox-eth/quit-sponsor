@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuitSponsor — an AI sponsor for quitting smoking</title>
+<meta name="description" content="Quitting is not a fight you win, it is a match you stop attending. An open-source AI quit-smoking sponsor: evidence-based protocol, published ethics, measured across seven LLMs.">
+<link rel="icon" href="logo.svg">
+<style>
+  :root{
+    --bg:#0c1226; --panel:#151d38; --ink:#f2ead9; --dim:#b8b3a6;
+    --accent:#ff8a3d; --accent2:#ff5f6d; --wave:#2e6fb0; --line:#26304f;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#faf6ee; --panel:#ffffff; --ink:#1c2340; --dim:#5a6070;
+           --line:#e4ddcd; }
+  }
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--bg);color:var(--ink);
+       font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;
+       -webkit-font-smoothing:antialiased}
+  main{max-width:680px;margin:0 auto;padding:3.5rem 1.25rem 4rem}
+  .hero{display:flex;gap:1.4rem;align-items:center;margin-bottom:2.2rem}
+  .hero img{width:92px;height:92px;flex:none}
+  h1{font-size:2rem;line-height:1.15;letter-spacing:-.02em}
+  h1 .q{color:var(--ink)} h1 .s{color:var(--accent)}
+  .tag{color:var(--dim);margin-top:.45rem;font-size:1.02rem}
+  blockquote{border-left:3px solid var(--accent);padding:.35rem 0 .35rem 1.1rem;
+             margin:2.1rem 0;font-size:1.18rem;line-height:1.5}
+  blockquote em{color:var(--dim);font-style:normal;font-size:.94rem;display:block;margin-top:.5rem}
+  h2{font-size:1.05rem;text-transform:uppercase;letter-spacing:.09em;
+     color:var(--accent);margin:2.6rem 0 .9rem}
+  p{margin:.8rem 0}
+  .cards{display:grid;gap:.8rem;margin-top:1rem}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+        padding:1rem 1.15rem}
+  .card b{display:block;margin-bottom:.25rem}
+  .card .dim{color:var(--dim);font-size:.95rem}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .cta{display:inline-block;background:linear-gradient(120deg,var(--accent),var(--accent2));
+       color:#fff;font-weight:700;padding:.85rem 1.5rem;border-radius:12px;
+       margin:.6rem .6rem 0 0}
+  .cta.ghost{background:transparent;border:2px solid var(--accent);color:var(--accent)}
+  .honest{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+          padding:1.1rem 1.2rem;margin-top:1rem;font-size:.97rem}
+  .honest li{margin:.45rem 0 .45rem 1.1rem}
+  table{width:100%;border-collapse:collapse;margin-top:.8rem;font-size:.93rem}
+  td,th{padding:.45rem .5rem;border-bottom:1px solid var(--line);text-align:left}
+  th{color:var(--dim);font-weight:600}
+  td.num{font-variant-numeric:tabular-nums}
+  .note{color:var(--dim);font-size:.88rem;margin-top:.6rem}
+  footer{margin-top:3.2rem;padding-top:1.2rem;border-top:1px solid var(--line);
+         color:var(--dim);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="logo.svg" alt="QuitSponsor logo: a life buoy that is also a speech bubble">
+    <div>
+      <h1><span class="q">Quit</span><span class="s">Sponsor</span></h1>
+      <div class="tag">An AI sponsor for quitting smoking. Always awake, never judging, remembers your journey.</div>
+    </div>
+  </div>
+
+  <blockquote>
+    Quitting is not a fight you win, it is a match you stop attending.
+    A sponsor does not coach the boxing, it walks you out of the arena.
+    <em>The guiding idea behind the protocol.</em>
+  </blockquote>
+
+  <a class="cta" href="https://t.me/QuitSponsorBot">Talk to the sponsor on Telegram</a>
+  <a class="cta ghost" href="https://github.com/metrox-eth/quit-sponsor">Read the open protocol</a>
+  <p class="note">Free private beta, 20 seats, adults only. Seven languages. Your data: export or delete it anytime, for real.</p>
+
+  <h2>What it is</h2>
+  <div class="cards">
+    <div class="card"><b>A protocol, not a prompt</b>
+      <span class="dim">An explicit, auditable procedure for the moments that decide a quit: the 2&nbsp;a.m. craving, the pack already in hand, the slip, the silence. Every claim traced to published research; the provenance of every rule labeled.</span></div>
+    <div class="card"><b>A witness with long memory</b>
+      <span class="dim">The sponsor keeps your logbook (encrypted at rest), knows your contract and your risk map, and is on call at the hours human support is not. Zero shame: slips are data, nothing banked is ever lost.</span></div>
+    <div class="card"><b>Open end to end</b>
+      <span class="dim">The protocol, the bot, the <a href="https://github.com/metrox-eth/quit-sponsor/blob/main/ETHICS.md">ethics charter that binds the operators</a>, the safety rules, and the evaluation are all public and MIT-licensed.</span></div>
+  </div>
+
+  <h2>Measured, not assumed</h2>
+  <p>The protocol ships with a reproducible six-turn crisis test, scored across seven LLMs from five vendors, with and without it. Without the protocol, every vendor's model reproduced known counseling errors.</p>
+  <table>
+    <tr><th>Model</th><th>With protocol</th><th>Bare</th></tr>
+    <tr><td>Claude Opus / Sonnet 5</td><td class="num">16 / 16</td><td class="num">11.5 / 10.5</td></tr>
+    <tr><td>GLM-5-turbo</td><td class="num">16</td><td class="num">13</td></tr>
+    <tr><td>GPT-5.6 Sol</td><td class="num">15.5</td><td class="num">9.5</td></tr>
+    <tr><td>DeepSeek V4 Pro / Grok 4.20</td><td class="num">14</td><td class="num">11 / 8</td></tr>
+  </table>
+  <p class="note">Method, rubric, disqualifiers and limits: <a href="https://github.com/metrox-eth/quit-sponsor/blob/main/MODEL_FIT.md">MODEL_FIT.md</a>. One run per cell, graded by the author; treat as strong signal, not certification.</p>
+
+  <h2>The honest part</h2>
+  <div class="honest">
+    <ul>
+      <li><b>Not a medical device, not an emergency service.</b> In a crisis, call your local emergency number or <a href="https://findahelpline.com">findahelpline.com</a> — never wait on a bot.</li>
+      <li><b>Not a panacea.</b> Professional support plus medication holds the strongest evidence. If you have access to it, take it; the sponsor works alongside, as the continuity layer.</li>
+      <li><b>Strict scope.</b> Tobacco and cannabis co-use only. Alcohol and opioid dependence get one answer: a clinician — on those paths, a slip can kill.</li>
+      <li><b>No outcome promises.</b> Most quit attempts fail; evidence-based support improves the odds, and we publish the evidence.</li>
+    </ul>
+  </div>
+
+  <h2>Who made this</h2>
+  <p>Built by <a href="https://github.com/metrox-eth">metrox</a> during the first week of his own quit, with the lessons of two recoveries and an AI pair who never sleeps. The field test started at N=1: the author. It held at the worst moment it was built for.</p>
+
+  <footer>
+    Open source (MIT) · <a href="https://github.com/metrox-eth/quit-sponsor">protocol</a> · <a href="https://github.com/metrox-eth/quit-sponsor-bot">bot</a> · <a href="https://github.com/metrox-eth/quit-sponsor/blob/main/SAFETY.md">safety</a> · <a href="https://github.com/metrox-eth/quit-sponsor-bot/blob/main/TERMS.md">beta terms</a><br>
+    Generated with care by Iris &amp; metrox — Thailand, 2026.
+  </footer>
+</main>
+</body>
+</html>
