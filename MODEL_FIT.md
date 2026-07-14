@@ -52,9 +52,12 @@ One result deserves its own line, because it is the strongest evidence in this f
 | Claude Sonnet 5 | 16 | 10.5 |
 | GPT-5.6 Sol | 15.5 | 9.5 |
 | GLM-5-turbo | 16 | 13 |
+| GLM-5-turbo, thinking disabled, direct maker API (the live bot's runtime route since 2026-07-14) | 15 | - |
 | DeepSeek V4 Pro | 14 | 11 |
 | Grok 4.20 | 14 | 8 |
 | Gemini 3.1 Pro preview (via one router) | ~11, unreliable | ~4.5, unreliable |
+
+Runtime re-verification (2026-07-14): when the live bot's route moved to the model maker's API with reasoning disabled (crisis doctrine wants short and fast; the reasoning mode cost 15 to 30 seconds per reply), the fit test was re-run on that exact configuration: 15 of 16, zero disqualifiers, replies in 5 to 9 seconds. The half points were lost to tone sharpness (a "yes or no" where the warm wall wants warmth), not to doctrine: every safety gesture held, including the stock check on the shape-shifted product. Re-run this whenever the runtime route or reasoning mode changes.
 
 ## Guidance, as of July 2026
 
